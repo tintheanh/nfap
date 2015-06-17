@@ -1,0 +1,88 @@
+*{
+	margin:auto;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font-family: "Open Sans", sans-serif;
+}
+nav{
+	width: 100%;
+	height: 56px;
+	background-color: #FAFAFA;
+	position: fixed;
+	bottom: 0;
+	box-shadow: 0 1px 0 0 rgba(0,0,0,0.06) inset;	
+}
+/*nav div{
+	width: 20%;
+	height: 100%;
+	float: left;
+	margin: 0;
+}
+nav .song-image{
+	height:64px;
+	width: 64px;
+	position: relative;
+	bottom:8px;
+	background-color: black;
+}*/
+header{
+	width: 100%;
+	height: 320px;
+}
+header .cover{
+	width: 100%;
+	height: 240px;
+	background-color: black;
+}
+header .info{
+	width: 100%;
+	height: 80px;
+	text-align: center;
+}
+header .info h1{
+	font-size: 18px;
+	padding-top: 16px;
+}
+header .info p{
+	font-size: 12px;
+	font-weight: 600;
+	color:rgba(0,0,0,0.26);
+}
+header .info p span{
+	color:rgba(0,0,0,0.54);	
+}
+.list-song{
+	width: 100%;
+	height: auto;
+	box-shadow: 0 1px 0 0 rgba(0,0,0,0.06) inset;
+	padding-bottom: 56px;
+}
+.list-song .song{
+	width: 100%;
+	height: 56px;
+	box-shadow: 0 -1px 0 0 rgba(0,0,0,0.06) inset;		
+}
+.list-song .song p{
+	font-size: 12px;
+	font-weight: 600;
+	padding-top: 19px;
+	padding-left: 19px;
+	letter-spacing: 0.5px;
+}
+.list-song .song #number-ordered{
+	float:left;
+	color:rgba(0,0,0,0.26);
+}
+.list-song .song #name{
+	color:rgba(0,0,0,0.54);
+	margin-left: 30px;	
+}
+.list-song .song #name span{
+	color:rgba(0,0,0,0.26);	
+}
